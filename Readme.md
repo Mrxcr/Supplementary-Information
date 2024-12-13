@@ -77,7 +77,7 @@ The materials corresponding to the numerical example in Section 4 are stored in 
   ------ simulation 
   ------------ data
   ------------ Figures
-  ------------ generateData.py
+  ------------ process.py
   ------------ run.sh
   ------ Result_firstRun
   ------------ data
@@ -92,7 +92,7 @@ The materials corresponding to the numerical example in Section 4 are stored in 
   ```
 
 The `NumericalEx` folder contains three subfolders: `simulation`, `Result_firstRun`, and `Result_50Runs`. Each subfolder includes a data folder, a Figures folder, and a script named `run.sh`. Running `run.sh` in the terminal will generate the corresponding data and figures, which will be saved in the respective data and Figures folders.
-In the `NumbericalEx/simulation` folder, the script `run.sh` can be executed to generate the simulation data used in Section 4 of the manuscript. The resulting data will be saved as `NumericalEx/simulation/data/simulation.csv`, while **Figures F1** and **F2** will be stored in the `NumericalEx/simulation/Figures` folder. Note that multiple simulations can be performed by modifying the random seed in the script `NumbericalEx/simulation/generateData.py`. In this way, we conducted 50 simulations, and the corresponding results from different models are stored in the `NumericalEx/Result_50Runs/data` folder. This folder contains five CSV files, each representing the results of one model across all simulations, including prediction MSE, the estimated number of components, and the estimated model weights. In the `NumericalEx/Result_50Runs` directory, the script `run.sh` can be executed to read the data and generate **Figures 2**, **5**, and **6** in the manuscript.
+In the `NumbericalEx/simulation` folder, the script `run.sh` can be executed to generate the simulation data used in Section 4 of the manuscript. The resulting data will be saved as `NumericalEx/simulation/data/simulation.csv`, while **Figures F1** and **F2** will be stored in the `NumericalEx/simulation/Figures` folder. Note that multiple simulations can be performed by modifying the random seed in the script `NumbericalEx/simulation/process.py`. In this way, we conducted 50 simulations, and the corresponding results from different models are stored in the `NumericalEx/Result_50Runs/data` folder. This folder contains five CSV files, each representing the results of one model across all simulations, including prediction MSE, the estimated number of components, and the estimated model weights. In the `NumericalEx/Result_50Runs` directory, the script `run.sh` can be executed to read the data and generate **Figures 2**, **5**, and **6** in the manuscript.
 The `NumbericalEx/Result_firstRun/data` folder contains the results of different models from the first simulation, which are used to generate **Figure 3** and **4** in the manuscript. Within each subfolder of the `NumbericalEx/Result_firstRun/data` folder, there are six *.npy* file. The descriptions of these files are provided below (taking the subfolder `NumbericalEx/Result_firstRun/data/DPR2MRM` as an example):
 
 ```
