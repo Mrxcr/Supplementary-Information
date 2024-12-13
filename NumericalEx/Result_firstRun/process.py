@@ -58,7 +58,7 @@ def plot_models(name, mat_epl, mean_pred, list_idx, list_unique):
                     , linecolor='black', gridcolor='black', mirror=True, ticks='outside')
 
     fig.show()
-    print(f"Save Figure 3 at Figures/Figure3_{name}.png.")
+    print(r"Save Figure 3 at SuppMaterial\NumericalEx\Result_firstRun\Figures\Figure3_" + f"{name}.png.")
     fig.write_html(f"Figures/Figure3_{name}.html")
     fig.write_image(f"Figures/Figure3_{name}.png")
 
@@ -81,7 +81,7 @@ def plot_component(list_com_DPMRM, list_com_DPORMRM, list_com_DPIRMRM, list_com_
                     , linecolor='black', gridcolor='lightgrey', mirror=True, ticks='outside')
     fig.update_yaxes(showline=True, zeroline=True, zerolinecolor="black", showgrid=True, linewidth=2
                     , linecolor='black', gridcolor='lightgrey', mirror=True, ticks='outside')
-    print("Save Figure 4 at Figures/Figure 4.png.")
+    print(r"Save Figure 4 at SuppMaterial\NumericalEx\Result_firstRun\Figures\Figure 4.png.")
     fig.write_html(f"Figures/Figure4.html")
     fig.write_image(f"Figures/Figure4.png")
     fig.show()

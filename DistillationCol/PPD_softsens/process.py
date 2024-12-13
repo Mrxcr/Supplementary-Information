@@ -93,7 +93,7 @@ def plot_MPD(df):
     fig.update_yaxes(showline=True, linewidth=2, linecolor='black', gridcolor='black', mirror=True, ticks='outside')
 
     fig.show()
-    print("Save Figure 10 at Figures/Figure10.png.")
+    print("Save Figure 10 at SuppMaterial\DistillationCol\PPD_softsens\Figures\Figure10.png.")
     fig.write_html(f"Figures/Figure10.html")
     fig.write_image("Figures/Figure10.png")
 
@@ -125,7 +125,7 @@ def plot_scatter(df):
     fig.update_yaxes(showline=True, linewidth=2, linecolor='black', gridcolor='black', mirror=True, ticks='outside')
 
     fig.show()
-    print("Save Figure 11 at Figures/Figure11.png.")
+    print("Save Figure 11 at SuppMaterial\DistillationCol\PPD_softsens\Figures\Figure11.png.")
     fig.write_html("Figures/Figure11.html")
     fig.write_image("Figures/Figure11.png")
 

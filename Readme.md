@@ -13,28 +13,28 @@ Reproduce figures and tables in paper: Robust soft sensor development based on D
 
 Simulation Data
 Generating Figures F1, F2
-Save simulation data at data/simulation.csv.
-Save Figure F1 at Figures/Figure F1.png.
-Save Figure F2 at Figures/Figure F2.png.
+Save simulation data at SuppMaterial\NumericalEx\Simulation\data\simulation.csv.
+Save Figure F1 at SuppMaterial\NumericalEx\Simulation\Figures\Figure F1.png.
+Save Figure F2 at SuppMaterial\NumericalEx\Simulation\Figures\Figure F2.png.
 
 Results of 50 simulation runs
 Generating Figures 2 5 and 6
-Save Figure 2 at Figures/Figure 2.png.
-Save Figure 6 at Figures/Figure 6.png.
-Save Figure 5 at Figures/Figure 5.png.
+Save Figure 2 at SuppMaterial\NumericalEx\Result_50Runs\Figures\Figure 2.png.
+Save Figure 6 at SuppMaterial\NumericalEx\Result_50Runs\Figures\Figure 6.png.
+Save Figure 5 at SuppMaterial\NumericalEx\Result_50Runs\Figures\Figure 5.png.
 
 Results of the first simulation run
 Generating Figures 3 and 4
-Save Figure 3 at Figures/Figure3_GMR.png.
-Save Figure 3 at Figures/Figure3_DPMRM.png.
-Save Figure 3 at Figures/Figure3_DPIRMRM.png.
-Save Figure 3 at Figures/Figure3_DPORMRM.png.
-Save Figure 3 at Figures/Figure3_DPR2MRM.png.
-Save Figure 4 at Figures/Figure 4.png.
+Save Figure 3 at SuppMaterial\NumericalEx\Result_firstRun\Figures\Figure3_GMR.png.
+Save Figure 3 at SuppMaterial\NumericalEx\Result_firstRun\Figures\Figure3_DPMRM.png.
+Save Figure 3 at SuppMaterial\NumericalEx\Result_firstRun\Figures\Figure3_DPIRMRM.png.
+Save Figure 3 at SuppMaterial\NumericalEx\Result_firstRun\Figures\Figure3_DPORMRM.png.
+Save Figure 3 at SuppMaterial\NumericalEx\Result_firstRun\Figures\Figure3_DPR2MRM.png.
+Save Figure 4 at SuppMaterial\NumericalEx\Result_firstRun\Figures\Figure 4.png.
 
 2. Soft sensor modeling for m-diaminobenzene concentration
 Generating Figures 7, 8, 9, G1 and Table 1
-Save the predicted values for MPD at data/MPD_inversed.csv.
+Save the predicted values for MPD at SuppMaterial\DistillationCol\MPD_softsens\data\MPD_inversed.csv.
 
 
 -------------------------Table 1------------------------
@@ -45,16 +45,16 @@ DPORMRM on the testing set, RMSE: 100.34, MAE: 79.58
 DPR2MRM on the testing set, RMSE: 82.45, MAE: 65.81
 
 
-Save Figure 7 at Figures/Figure7.png.
-Save Figure 8 at Figures/Figure8_2176.png.
-Save Figure 8 at Figures/Figure8_1500.png.
-Save Figure 9 at Figures/Figure9.png.
-Save Figure G1 at Figures/FigureG1.png.
+Save Figure 7 at SuppMaterial\DistillationCol\MPD_softsens\Figures\Figure7.png.
+Save Figure 8 at SuppMaterial\DistillationCol\MPD_softsens\Figures\Figure8_2176.png.
+Save Figure 8 at SuppMaterial\DistillationCol\MPD_softsens\Figures\Figure8_1500.png.
+Save Figure 9 at SuppMaterial\DistillationCol\MPD_softsens\Figures\Figure9.png.
+Save Figure G1 at SuppMaterial\DistillationCol\MPD_softsens\Figures\FigureG1.png.
 
 3. Soft sensor modeling for p-diaminobenzene concentration
 Generating Figures 10, 11 and Table 2
-Save Figure 10 at Figures/Figure10.png.
-Save Figure 11 at Figures/Figure11.png.
+Save Figure 10 at SuppMaterial\DistillationCol\PPD_softsens\Figures\Figure10.png.
+Save Figure 11 at SuppMaterial\DistillationCol\PPD_softsens\Figures\Figure11.png.
 
 
 -------------------------Table 2------------------------

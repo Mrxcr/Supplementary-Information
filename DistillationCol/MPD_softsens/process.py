@@ -93,7 +93,7 @@ def plot_MPD(df, start, end):
     fig.update_yaxes(showline=True, linewidth=2, linecolor='black', gridcolor='black', mirror=True, ticks='outside')
 
     fig.show()
-    print(f"Save Figure 8 at Figures/Figure8_{end-start}.png.")
+    print(f"Save Figure 8 at SuppMaterial\DistillationCol\MPD_softsens\Figures\Figure8_{end-start}.png.")
     fig.write_html(f"Figures/Figure8_{end-start}.html")
     fig.write_image(f"Figures/Figure8_{end-start}.png")
 
@@ -117,7 +117,7 @@ def plot_component(df_DPMRM, df_DPIRMRM, df_DPORMRM, df_DPR2MRM):
     fig.update_yaxes(showline=True, zeroline=True, zerolinecolor="black", showgrid=True, linewidth=2
                     , linecolor='black', gridcolor='lightgrey', mirror=True, ticks='outside')
     fig.show()
-    print("Save Figure 7 at Figures/Figure7.png.")
+    print("Save Figure 7 at SuppMaterial\DistillationCol\MPD_softsens\Figures\Figure7.png.")
     fig.write_html(f"Figures/Figure7.html")
     fig.write_image("Figures/Figure7.png")
 
@@ -149,7 +149,7 @@ def plot_scatter(df):
     fig.update_yaxes(showline=True, linewidth=2, linecolor='black', gridcolor='black', mirror=True, ticks='outside')
 
     fig.show()
-    print("Save Figure 9 at Figures/Figure9.png.")
+    print("Save Figure 9 at SuppMaterial\DistillationCol\MPD_softsens\Figures\Figure9.png.")
     fig.write_html("Figures/Figure9.html")
     fig.write_image("Figures/Figure9.png")
 
@@ -189,7 +189,7 @@ def plot_QQ(df_qq):
 
     plt.subplots_adjust(wspace=0.3, hspace=0.3)
     # plt.show()
-    print("Save Figure G1 at Figures/FigureG1.png.")
+    print("Save Figure G1 at SuppMaterial\DistillationCol\MPD_softsens\Figures\FigureG1.png.")
     plt.savefig('Figures/FigureG1.png', format='png')
 
 
@@ -219,7 +219,7 @@ if __name__ == "__main__":
                     , "DPR2MRM_UB", "DPR2MRM_LB"]].apply(lambda x: scaler.inverse_transform(x.values[:, np.newaxis]).flatten())
     df.set_index("Time", drop=True, inplace=True)
 
-    print("Save the predicted values for MPD at data/MPD_inversed.csv.")
+    print("Save the predicted values for MPD at SuppMaterial\DistillationCol\MPD_softsens\data\MPD_inversed.csv.")
     df.to_csv("data/MPD_inversed.csv")
 
     # RMSE and MAE (Table 1)

@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
     # Save simulation data
     df = pd.DataFrame(np.hstack([Xt, yt[:, np.newaxis]]), columns=["x1", "x2", "y"])
-    print("Save simulation data at data/simulation.csv.")
+    print(r"Save simulation data at SuppMaterial\NumericalEx\Simulation\data\simulation.csv.")
     df.to_csv("data/simulation.csv")
 
     # Generate Figure F1 in the Supplementary material 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
                     , linecolor='black', gridcolor='black', mirror=True, ticks='outside')
 
     fig.show()
-    print("Save Figure F1 at Figures/Figure F1.png.")
+    print(r"Save Figure F1 at SuppMaterial\NumericalEx\Simulation\Figures\Figure F1.png.")
     fig.write_html("Figures/FigureF1.html")
     fig.write_image("Figures/FigureF1.png")
 
@@ -98,6 +98,6 @@ if __name__ == "__main__":
     fig.update_yaxes(showline=True, zeroline=True, zerolinecolor="black", showgrid=True, linewidth=2
                     , linecolor='black', gridcolor='black', mirror=True, ticks='outside')
     fig.show()
-    print("Save Figure F2 at Figures/Figure F2.png.")
+    print(r"Save Figure F2 at SuppMaterial\NumericalEx\Simulation\Figures\Figure F2.png.")
     fig.write_html("Figures/FigureF2.html")
     fig.write_image("Figures/FigureF2.png")
